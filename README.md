@@ -1,8 +1,6 @@
 <div align="center">
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:22D3EE&height=210&section=header&text=HaraYon&fontSize=58&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=JavaScript%20%E2%80%A2%20TypeScript%20%E2%80%A2%20Node.js%20%E2%80%A2%20Automa%C3%A7%C3%A3o&descAlignY=60)
-
-[![Animação 3D tecnológica de HaraYon](./assets/neon-3d.svg)](https://github.com/HaraYon)
+[![Notebook tecnológico animado de HaraYon](./assets/neon-laptop.svg)](https://github.com/HaraYon)
 
 </div>
 
