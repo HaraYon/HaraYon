@@ -1,0 +1,126 @@
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">HaraYon — animação tecnológica 3D</title>
+  <desc id="desc">Cubo isométrico neon flutuando sobre uma grade em perspectiva com partículas animadas.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="900" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060B18"/>
+      <stop offset="0.5" stop-color="#0B1530"/>
+      <stop offset="1" stop-color="#07111E"/>
+    </linearGradient>
+    <linearGradient id="cyanPurple" x1="330" y1="74" x2="570" y2="226" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="topFace" x1="450" y1="72" x2="450" y2="154" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="leftFace" x1="353" y1="153" x2="450" y2="229" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#172554" stop-opacity="0.14"/>
+    </linearGradient>
+    <linearGradient id="rightFace" x1="547" y1="153" x2="450" y2="229" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#312E81" stop-opacity="0.12"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#22D3EE" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="28" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V28" stroke="#38BDF8" stroke-opacity="0.16" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <clipPath id="rounded">
+      <rect width="900" height="300" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="900" height="300" fill="url(#background)"/>
+    <circle cx="450" cy="146" r="150" fill="url(#halo)" filter="url(#softGlow)">
+      <animate attributeName="r" values="125;165;125" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0.9;0.55" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <g opacity="0.72" transform="translate(0 186) skewX(-18) scale(1 0.72)">
+      <rect x="-80" y="0" width="1060" height="190" fill="url(#grid)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 28" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <path d="M0 235H900" stroke="url(#cyanPurple)" stroke-opacity="0.6">
+      <animate attributeName="stroke-opacity" values="0.25;0.8;0.25" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+
+    <g filter="url(#glow)" opacity="0.9">
+      <ellipse cx="450" cy="232" rx="147" ry="26" stroke="url(#cyanPurple)" stroke-width="2" stroke-dasharray="22 14">
+        <animate attributeName="stroke-dashoffset" values="0;-72" dur="3s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="450" cy="232" rx="105" ry="17" stroke="#22D3EE" stroke-opacity="0.55" stroke-dasharray="8 12">
+        <animate attributeName="stroke-dashoffset" values="0;80" dur="4s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 -4;0 5;0 -4" dur="5s" repeatCount="indefinite"/>
+      <polygon points="450,63 555,121 450,180 345,121" fill="url(#topFace)" stroke="url(#cyanPurple)" stroke-width="2"/>
+      <polygon points="345,121 450,180 450,238 345,179" fill="url(#leftFace)" stroke="#38BDF8" stroke-width="2"/>
+      <polygon points="555,121 450,180 450,238 555,179" fill="url(#rightFace)" stroke="#A855F7" stroke-width="2"/>
+      <path d="M450 63V180M345 121L450 180L555 121M450 180V238" stroke="#E0F2FE" stroke-opacity="0.72" stroke-width="1.5" stroke-dasharray="9 7">
+        <animate attributeName="stroke-dashoffset" values="0;-32" dur="2.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M399 92L503 151M503 92L399 151" stroke="#C4B5FD" stroke-opacity="0.45" stroke-width="1"/>
+      <circle cx="450" cy="180" r="7" fill="#F8FAFC" filter="url(#glow)">
+        <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g fill="#67E8F9" filter="url(#glow)">
+      <circle cx="173" cy="80" r="2.5">
+        <animateTransform attributeName="transform" type="translate" values="0 8;0 -14;0 8" dur="4.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="4.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="257" cy="166" r="2">
+        <animateTransform attributeName="transform" type="translate" values="0 -10;0 12;0 -10" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="667" cy="91" r="2.5">
+        <animateTransform attributeName="transform" type="translate" values="0 12;0 -10;0 12" dur="5.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="735" cy="177" r="2">
+        <animateTransform attributeName="transform" type="translate" values="0 -8;0 14;0 -8" dur="4.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="3">
+      <text x="450" y="42" fill="url(#cyanPurple)" font-size="27" font-weight="700" text-anchor="middle" filter="url(#glow)">HaraYon
+        <animate attributeName="opacity" values="0.72;1;0.72" dur="2.8s" repeatCount="indefinite"/>
+      </text>
+      <text x="450" y="42" fill="none" stroke="#E0F2FE" stroke-width="0.7" stroke-dasharray="12 8" font-size="27" font-weight="700" text-anchor="middle">HaraYon
+        <animate attributeName="stroke-dashoffset" values="0;-40" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.18;0.8;0.18" dur="2.8s" repeatCount="indefinite"/>
+      </text>
+      <text x="34" y="44" fill="#64748B" font-size="10">PROFILE // ONLINE</text>
+      <circle cx="20" cy="40" r="4" fill="#22C55E">
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="450" y="276" fill="#CBD5E1" font-size="13" text-anchor="middle">BUILD • AUTOMATE • EVOLVE</text>
+      <text x="866" y="44" fill="#475569" font-size="10" text-anchor="end">3D / PROFILE</text>
+    </g>
+
+    <rect x="0" y="-55" width="900" height="46" fill="url(#cyanPurple)" opacity="0.07">
+      <animate attributeName="y" values="-55;330" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="0.75" y="0.75" width="898.5" height="298.5" rx="17.25" stroke="url(#cyanPurple)" stroke-opacity="0.36" stroke-width="1.5"/>
+</svg>
