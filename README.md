@@ -2,7 +2,7 @@
 
 ![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:22D3EE&height=210&section=header&text=HaraYon&fontSize=58&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=JavaScript%20%E2%80%A2%20TypeScript%20%E2%80%A2%20Node.js%20%E2%80%A2%20Automa%C3%A7%C3%A3o&descAlignY=60)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3500&pause=900&color=2563EB&center=true&vCenter=true&width=760&lines=Solu%C3%A7%C3%B5es+pr%C3%A1ticas+e+bem+estruturadas;Bots+e+automa%C3%A7%C3%B5es+com+JavaScript+e+TypeScript)](https://git.io/typing-svg)
+[![Animação 3D tecnológica de HaraYon](./assets/neon-3d.svg)](https://github.com/HaraYon)
 
 </div>
 
@@ -16,7 +16,9 @@ Desenvolvedor focado em soluções práticas e bem estruturadas, com experiênci
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=node.js&logoColor=5FA04E)
+![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)
 ![Discord.js](https://img.shields.io/badge/Discord.js-111827?style=for-the-badge&logo=discord&logoColor=5865F2)
 
 </div>
