@@ -6,7 +6,23 @@
 
 ## Sobre mim
 
-Desenvolvedor focado em soluções práticas e bem estruturadas, com experiência em **JavaScript**, **TypeScript**, **Node.js** e automação de sistemas.
+Desenvolvedor de software focado em transformar necessidades reais em soluções práticas, organizadas e fáceis de evoluir. Trabalho principalmente com **JavaScript**, **TypeScript** e **Node.js**, criando automações, integrações e aplicações para comunidades digitais.
+
+Também desenvolvo projetos com **React** e **Python**, sempre buscando código claro, boa estrutura e manutenção simples. Tenho interesse especial em **arquitetura de software**, **automação** e **segurança**.
+
+## Projetos em destaque
+
+### [Bots](https://github.com/HaraYon/Bots)
+
+Bot para Discord focado em automação, organização e engajamento. O projeto utiliza **TypeScript** e possui uma estrutura preparada para receber novos recursos.
+
+[Ver repositório →](https://github.com/HaraYon/Bots)
+
+### [MelMelbot](https://github.com/HaraYon/MelMelbot)
+
+Bot para Discord desenvolvido com **JavaScript**, **Discord.js v14** e **Components V2**, com uma interface moderna e recursos voltados à interação entre membros da comunidade.
+
+[Ver repositório →](https://github.com/HaraYon/MelMelbot)
 
 ## Tecnologias
 
@@ -21,7 +37,7 @@ Desenvolvedor focado em soluções práticas e bem estruturadas, com experiênci
 
 </div>
 
-## Estatísticas
+## GitHub em números
 
 <div align="center">
 
@@ -39,24 +55,17 @@ Desenvolvedor focado em soluções práticas e bem estruturadas, com experiênci
 
 </div>
 
-## Contribuições
+## Atividade
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=HaraYon&theme=github-compact&hide_border=true&area=true" />
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=HaraYon&theme=github-light&hide_border=true&area=true" />
-  <img alt="Gráfico de contribuições de HaraYon" src="https://github-readme-activity-graph.vercel.app/graph?username=HaraYon&theme=github-compact&hide_border=true&area=true" />
+  <img alt="Gráfico de atividade de HaraYon" src="https://github-readme-activity-graph.vercel.app/graph?username=HaraYon&theme=github-compact&hide_border=true&area=true" />
 </picture>
 
 </div>
-
-## Projetos em destaque
-
-| Projeto | Descrição | Stack |
-| :--- | :--- | :--- |
-| [**Bots**](https://github.com/HaraYon/Bots) | Bot para Discord focado em automação, organização e engajamento, com arquitetura limpa e fácil de expandir. | TypeScript |
-| [**MelMelbot**](https://github.com/HaraYon/MelMelbot) | Bot para Discord construído com Discord.js v14 e Components V2. | JavaScript · Discord.js |
 
 ## Contato
 
@@ -64,7 +73,7 @@ Desenvolvedor focado em soluções práticas e bem estruturadas, com experiênci
 
 [![GitHub](https://img.shields.io/badge/GitHub-HaraYon-181717?style=for-the-badge&logo=github)](https://github.com/HaraYon)
 [![Projetos](https://img.shields.io/badge/Ver_projetos-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HaraYon?tab=repositories)
-[![E-mail](https://img.shields.io/badge/E--mail-Contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:caiquesugahara6@gmail.com)
+[![E-mail](https://img.shields.io/badge/E--mail-caiquesugahara6%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:caiquesugahara6@gmail.com)
 
 </div>
 
