@@ -64,6 +64,7 @@ Desenvolvedor focado em soluções práticas e bem estruturadas, com experiênci
 
 [![GitHub](https://img.shields.io/badge/GitHub-HaraYon-181717?style=for-the-badge&logo=github)](https://github.com/HaraYon)
 [![Projetos](https://img.shields.io/badge/Ver_projetos-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HaraYon?tab=repositories)
+[![E-mail](https://img.shields.io/badge/E--mail-Contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:caiquesugahara6@gmail.com)
 
 </div>
 
