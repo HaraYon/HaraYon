@@ -1,6 +1,6 @@
 <svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">HaraYon — animação tecnológica 3D</title>
-  <desc id="desc">Cubo isométrico neon flutuando sobre uma grade em perspectiva com partículas animadas.</desc>
+  <title id="title">HaraYon — notebook tecnológico animado</title>
+  <desc id="desc">Notebook neon flutuando sobre uma grade em perspectiva, com código e partículas animadas.</desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="900" y2="300" gradientUnits="userSpaceOnUse">
@@ -74,15 +74,42 @@
 
     <g>
       <animateTransform attributeName="transform" type="translate" values="0 -4;0 5;0 -4" dur="5s" repeatCount="indefinite"/>
-      <polygon points="450,63 555,121 450,180 345,121" fill="url(#topFace)" stroke="url(#cyanPurple)" stroke-width="2"/>
-      <polygon points="345,121 450,180 450,238 345,179" fill="url(#leftFace)" stroke="#38BDF8" stroke-width="2"/>
-      <polygon points="555,121 450,180 450,238 555,179" fill="url(#rightFace)" stroke="#A855F7" stroke-width="2"/>
-      <path d="M450 63V180M345 121L450 180L555 121M450 180V238" stroke="#E0F2FE" stroke-opacity="0.72" stroke-width="1.5" stroke-dasharray="9 7">
-        <animate attributeName="stroke-dashoffset" values="0;-32" dur="2.2s" repeatCount="indefinite"/>
-      </path>
-      <path d="M399 92L503 151M503 92L399 151" stroke="#C4B5FD" stroke-opacity="0.45" stroke-width="1"/>
-      <circle cx="450" cy="180" r="7" fill="#F8FAFC" filter="url(#glow)">
-        <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+      <rect x="338" y="66" width="224" height="142" rx="12" fill="#071426" stroke="url(#cyanPurple)" stroke-width="3" filter="url(#glow)"/>
+      <rect x="348" y="76" width="204" height="121" rx="7" fill="#050A16" stroke="#38BDF8" stroke-opacity="0.42"/>
+      <circle cx="450" cy="71" r="2" fill="#67E8F9"/>
+
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+        <circle cx="362" cy="89" r="3" fill="#FB7185"/>
+        <circle cx="373" cy="89" r="3" fill="#FACC15"/>
+        <circle cx="384" cy="89" r="3" fill="#4ADE80"/>
+        <text x="362" y="111" fill="#64748B" font-size="8">~/portfolio</text>
+        <text x="362" y="131" fill="#22D3EE" font-size="11">$</text>
+        <text x="376" y="131" fill="#E2E8F0" font-size="11">npm run build</text>
+        <rect x="362" y="144" width="134" height="5" rx="2.5" fill="#2563EB" opacity="0.75">
+          <animate attributeName="width" values="28;134;28" dur="4.2s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="362" y="157" width="164" height="4" rx="2" fill="#A855F7" opacity="0.55">
+          <animate attributeName="width" values="72;164;72" dur="5.1s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="362" y="169" width="112" height="4" rx="2" fill="#22D3EE" opacity="0.58">
+          <animate attributeName="width" values="112;58;112" dur="3.7s" repeatCount="indefinite"/>
+        </rect>
+        <text x="362" y="187" fill="#4ADE80" font-size="9">✓ ready in 1.8s</text>
+        <rect x="449" y="120" width="2" height="13" fill="#E0F2FE">
+          <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <path d="M338 207H562L614 244H286L338 207Z" fill="url(#leftFace)" stroke="url(#cyanPurple)" stroke-width="2.5" filter="url(#glow)"/>
+      <path d="M354 213H546L574 234H326L354 213Z" fill="#0C1830" stroke="#38BDF8" stroke-opacity="0.5"/>
+      <g stroke="#60A5FA" stroke-opacity="0.48" stroke-width="1">
+        <path d="M363 217H537M348 222H552M335 228H565"/>
+        <path d="M380 213L367 234M401 213L393 234M423 213L419 234M446 213V234M469 213L474 234M491 213L501 234M513 213L528 234"/>
+      </g>
+      <path d="M418 235H482L474 241H426L418 235Z" fill="#0F2746" stroke="#A855F7" stroke-opacity="0.7"/>
+      <path d="M286 244H614L598 251H302L286 244Z" fill="#0B1224" stroke="#22D3EE" stroke-width="1.5"/>
+      <circle cx="450" cy="207" r="5" fill="#F8FAFC" filter="url(#glow)">
+        <animate attributeName="r" values="3.5;6;3.5" dur="2s" repeatCount="indefinite"/>
       </circle>
     </g>
 
@@ -115,7 +142,7 @@
         <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
       </circle>
       <text x="450" y="276" fill="#CBD5E1" font-size="13" text-anchor="middle">BUILD • AUTOMATE • EVOLVE</text>
-      <text x="866" y="44" fill="#475569" font-size="10" text-anchor="end">3D / PROFILE</text>
+      <text x="866" y="44" fill="#475569" font-size="10" text-anchor="end">DEV / PROFILE</text>
     </g>
 
     <rect x="0" y="-55" width="900" height="46" fill="url(#cyanPurple)" opacity="0.07">
